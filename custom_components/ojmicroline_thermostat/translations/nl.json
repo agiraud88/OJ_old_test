@@ -1,0 +1,37 @@
+{
+    "config": {
+        "flow_title": "{name}",
+        "step": {
+            "user": {
+                "title": "Voer hier de thermostaat app gegevens in.",
+                "data": {
+                    "host": "Host (zonder https)",
+                    "api_key": "De API key gebruikt door de app.",
+                    "username": "Gebruikersnaam",
+                    "password": "Wachtwoord",
+                    "customer_id": "Customer ID"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Onjuiste authenticatie gegevens",
+            "timeout": "Er heeft een timeout plaatsgevonden, probeer opnieuw",
+            "connection_failed": "Er ging iets mis met de verbinding, probeer opnieuw",
+            "unknown": "Onverwachte fout"
+        },
+        "abort": {
+            "already_configured": "Deze combinatie is al geconfigureerd."
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "description": "Stel de standaard opties in wanneer de temperatuur van de thermostaat wordt gewijzigd.",
+                "data": {
+                    "use_comfort_mode": "Zet de modus naar comfort wanneer de temperatuur wijzigd.",
+                    "comfort_mode_duration": "De totale tijd in minuten dat de comfort mode aan moet staan."
+                }
+            }
+        }
+    }
+}

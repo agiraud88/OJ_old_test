@@ -5,7 +5,7 @@
 ![Project Maintenance][maintenance-shield]
 [![Maintainability][maintainability-shield]][maintainability-url]
 
-# OJ Microline Thermostat Integration for Home Assistant
+# OJ Microline Thermostat Integration for Home Assistant test
 
 The OJ Microline Thermostat integration allows you to control your
 thermostat from Home Assistant.

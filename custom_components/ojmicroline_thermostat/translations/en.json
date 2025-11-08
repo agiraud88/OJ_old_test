@@ -1,0 +1,37 @@
+{
+    "config": {
+        "flow_title": "{name}",
+        "step": {
+            "user": {
+                "title": "Add your thermostat app credentials.",
+                "data": {
+                    "host": "Host (without https)",
+                    "api_key": "The API key used by the app.",
+                    "username": "Username",
+                    "password": "Password",
+                    "customer_id": "Customer ID"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Invalid authentication",
+            "timeout": "A timeout occurred, please try again",
+            "connection_failed": "Connection failed, please try again",
+            "unknown": "Unexpected error"
+        },
+        "abort": {
+            "already_configured": "Your credentials are already configured."
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "description": "Set default options when changing the thermostat temperature.",
+                "data": {
+                    "use_comfort_mode": "Set the regulation to comfort mode when changing the temperature.",
+                    "comfort_mode_duration": "The duration in minutes the comfort mode should be enabled."
+                }
+            }
+        }
+    }
+}
