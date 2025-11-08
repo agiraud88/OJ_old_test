@@ -1,6 +1,6 @@
 {
-    "domain": "ojmicroline_thermostat",
-    "name": "OJ Microline Thermostat",
+    "domain": "ojmicroline_thermostat_agd",
+    "name": "OJ Microline Thermostat_agd",
     "codeowners": [
         "@robbinjanssen"
     ],
